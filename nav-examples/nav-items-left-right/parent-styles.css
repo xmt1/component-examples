@@ -1,0 +1,40 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+svg {
+  width: 65.82;
+  height: 24px;
+  fill: #fff;
+}
+
+div[slot="main-nav-items"] {
+  width: 100%;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div[slot] a:not(:last-child) {
+  margin-right: 24px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.left span {
+  font-size: 1.25rem;
+}
+
+.divider {
+  height: 24px;
+  width: 1px;
+  background-color: #fff;
+  margin: 0 24px;
+}
